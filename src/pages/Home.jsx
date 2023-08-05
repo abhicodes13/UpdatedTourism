@@ -1,14 +1,12 @@
 import TourCard from '../components/TourCard'
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
-import ButtonAppBar from '../components/ButtonAppBar';
 import cities from '../data.json';
 import Typography from '@mui/material/Typography';
 import ColorAlerts from '../components/ColorAlerts';
 
 const Home =()=>(
    <div className='App'>
-        <ButtonAppBar/>
     <Container sx={{marginY:2}}>
       <ColorAlerts />
        {cities.map((city)=>(
