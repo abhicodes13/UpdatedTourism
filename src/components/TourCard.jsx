@@ -43,7 +43,10 @@ const TourCard = ({ tour }) => {
             <Typography variant='h6' component='h2'>
               From ${tour.price}
             </Typography>
+
             <Button variant='text' size='small' href='/Tour' >Book Now</Button>
+
+      
           </Box>
 
         </Box>
