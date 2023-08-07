@@ -14,7 +14,7 @@ export default function App() {
     <ButtonAppBar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/:id' element={<Tour/>}/>
+        <Route path='/Tour' element={<Tour/>}/>
       </Routes>
     </BrowserRouter>
   )
