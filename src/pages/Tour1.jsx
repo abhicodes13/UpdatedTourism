@@ -9,7 +9,7 @@ import BottomNavigation from '@mui/material/BottomNavigation';
 import BasicModal from '../components/Modal';
 
 
-const Tour =()=>
+const Tour1 =()=>
   <Container sx={{width:900}}>
     <Typography variant='h3' component ='h1'marginTop={3}>
       Explore the world
@@ -46,4 +46,4 @@ const Tour =()=>
       </Paper> 
   </Container>
 
-export default Tour;
+export default Tour1;

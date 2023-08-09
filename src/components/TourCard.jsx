@@ -44,7 +44,7 @@ const TourCard = ({ tour }) => {
               From ${tour.price}
             </Typography>
 
-            <Button variant='text' size='small' href='/Tour' >Book Now</Button>
+            <Button variant='text' size='small' href='/Tour3' >Book Now</Button>
 
       
           </Box>
