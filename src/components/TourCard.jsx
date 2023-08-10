@@ -5,9 +5,12 @@ import Typography from '@mui/material/Typography';
 import { AccessTime} from '@mui/icons-material';
 import Rating from '@mui/material/Rating';
 import Button from '@mui/material/Button';
+import { useNavigate } from 'react-router-dom';
 
 
 const TourCard = ({ tour }) => {
+  const navigate = useNavigate();
+  const handleClick = ()=>navigate('/Tour1');
   return (
     <Grid item xs={4}>
       <Paper elevation={1}>
@@ -43,9 +46,7 @@ const TourCard = ({ tour }) => {
             <Typography variant='h6' component='h2'>
               From ${tour.price}
             </Typography>
-
-            <Button variant='text' size='small' href='/Tour3' >Book Now</Button>
-
+            <Button variant='text' size='small' onClick={handleClick}>Book Now</Button>
       
           </Box>
 

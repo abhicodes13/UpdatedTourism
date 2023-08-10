@@ -12,7 +12,7 @@ import BasicModal from '../components/Modal';
 const Tour3 =()=>
   <Container sx={{width:900}}>
     <Typography variant='h3' component ='h1'marginTop={3}>
-      Explore the world
+     Niagra Falls Cruise Trip
     </Typography>
     <Box marginTop={3} sx={{display:'flex'}}>
       <img src="https://www.niagarafallsstatepark.com/~/media/parks/niagara-falls/homepage/spotlights/niagarafalls-home-spotlight-maid-of-the-mist-2021.jpg" alt="hello" 

@@ -12,7 +12,7 @@ import BasicModal from '../components/Modal';
 const Tour1 =()=>
   <Container sx={{width:900}}>
     <Typography variant='h3' component ='h1'marginTop={3}>
-      Explore the world
+      What happens in Vegas stays in Vegas
     </Typography>
     <Box marginTop={3} sx={{display:'flex'}}>
       <img src="https://www.tripsavvy.com/thmb/8WpKDq3jWbmgvtIqCqGSz1jCT3c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-AB11023-7fa9cfef954847bfbf9854a937e54745.jpg" alt="hello" 

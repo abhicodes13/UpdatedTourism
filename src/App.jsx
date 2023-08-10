@@ -17,14 +17,11 @@ export default function App() {
     <ButtonAppBar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-<<<<<<< HEAD
         <Route path='/Tour1' element={<Tour1/>}/>
-        <Route path='/:Tour2' element={<Tour2/>}/>
-        <Route path='/:Tour3' element={<Tour3/>}/>
-        <Route path='/:Tour4' element={<Tour4/>}/>
-=======
-        <Route path='/Tour' element={<Tour/>}/>
->>>>>>> refs/remotes/origin/main
+        <Route path='/Tour2' element={<Tour2/>}/>
+        <Route path='/Tour3' element={<Tour3/>}/>
+        <Route path='/Tour4' element={<Tour4/>}/>
+
       </Routes>
     </BrowserRouter>
   )

@@ -12,7 +12,7 @@ import BasicModal from '../components/Modal';
 const Tour2 =()=>
   <Container sx={{width:900}}>
     <Typography variant='h3' component ='h1'marginTop={3}>
-      Explore the world
+      Fly around New York City
     </Typography>
     <Box marginTop={3} sx={{display:'flex'}}>
       <img src="https://tourscanner.com/blog/wp-content/uploads/2018/03/new-york-helicopter-tour.jpg" alt="hello" 

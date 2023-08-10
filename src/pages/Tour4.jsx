@@ -11,7 +11,7 @@ import BasicModal from '../components/Modal';
 const Tour4 =()=>
   <Container sx={{width:900}}>
     <Typography variant='h3' component ='h1'marginTop={3}>
-      Explore the world
+      Fine Dine with a view
     </Typography>
     <Box marginTop={3} sx={{display:'flex'}}>
       <img src="https://www.niagarafallslive.com/wp-content/uploads/skylon-dining-1325x883-250k.jpg" alt="hello" 
