@@ -12,7 +12,7 @@ const TourCard = ({ tour }) => {
   const navigate = useNavigate();
   const handleClick = ()=>navigate('/Tour1');
   return (
-    <Grid item xs={4}>
+    <Grid item xs={4} sx={{xs:7}}>
       <Paper elevation={1}>
         <img src={tour.image} alt="#" className='img' />
         <Box paddingX={2}>

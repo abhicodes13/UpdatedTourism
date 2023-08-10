@@ -10,7 +10,7 @@ import BasicModal from '../components/Modal';
 
 
 const Tour2 =()=>
-  <Container sx={{width:900}}>
+  <Container sx={{width:900 ,maxWidth:390}}>
     <Typography variant='h3' component ='h1'marginTop={3}>
       Fly around New York City
     </Typography>

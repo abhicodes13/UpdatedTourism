@@ -9,7 +9,7 @@ import BottomNavigation from '@mui/material/BottomNavigation';
 import BasicModal from '../components/Modal';
 
 const Tour4 =()=>
-  <Container sx={{width:900}}>
+  <Container sx={{width:900, maxWidth:900}}>
     <Typography variant='h3' component ='h1'marginTop={3}>
       Fine Dine with a view
     </Typography>

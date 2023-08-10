@@ -10,7 +10,7 @@ import BasicModal from '../components/Modal';
 
 
 const Tour1 =()=>
-  <Container sx={{width:900}}>
+  <Container sx={{width:900 , maxWidth:380}}>
     <Typography variant='h3' component ='h1'marginTop={3}>
       What happens in Vegas stays in Vegas
     </Typography>

@@ -10,7 +10,7 @@ import BasicModal from '../components/Modal';
 
 
 const Tour3 =()=>
-  <Container sx={{width:900}}>
+  <Container sx={{maxWidth:900}}>
     <Typography variant='h3' component ='h1'marginTop={3}>
      Niagra Falls Cruise Trip
     </Typography>
