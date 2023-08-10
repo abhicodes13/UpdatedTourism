@@ -14,7 +14,7 @@
       },
       {
         "id": 2,
-        "name": "Helicopter Over the Falls",
+        "name": "Heli-Ride Over the Falls",
         "duration": 8,
         "rating": 3.5,
         "numberOfReviews": 641,
@@ -23,7 +23,7 @@
       },
       {
         "id": 3,
-        "name": "The Falls at Night",
+        "name": "Niagara Falls at Night",
         "duration": 2,
         "rating": 4.5,
         "numberOfReviews": 133,
@@ -32,12 +32,12 @@
       },
       {
         "id": 4,
-        "name": "Immerse into the Falls",
+        "name": "Hike to the top of the mountains",
         "duration": 5,
         "rating": 4.5,
         "numberOfReviews": 462,
         "price": 465,
-        "image": "https://tcproduction.blob.core.windows.net/media/%7B240f8b72-1159-4fd3-a150-0a837f50ba4a%7D.2573758641_297d6d19fa_o.jpg"
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/10/15/09/istock-483629308.jpg"
       }
     ]
   },

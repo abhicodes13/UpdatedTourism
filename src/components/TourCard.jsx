@@ -16,7 +16,7 @@ const TourCard = ({ tour }) => {
       <Paper elevation={1}>
         <img src={tour.image} alt="#" className='img' />
         <Box paddingX={2}>
-          <Typography variant='subtitle1' component='h2'>
+          <Typography variant='h5' component='h2'>
             {tour.name}
           </Typography>
           <Box sx={{
@@ -30,7 +30,8 @@ const TourCard = ({ tour }) => {
           </Box>
           <Box sx={{
             display: 'flex',
-            alignItems: 'center'
+            alignItems: 'center',
+            flexWrap: 'wrap'
           }}
             marginTop={3}>
 
